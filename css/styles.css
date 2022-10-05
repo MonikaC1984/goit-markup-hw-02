@@ -14,6 +14,14 @@ body {
 .title {
   font-family: "Raleway", 20px;
 }
+.logo {
+  text-decoration: none;
+}
+.logo:hover,
+.logo:focus {
+  text-decoration: underline;
+  text-decoration-color: var(--logo1-color);
+}
 .logo1 {
   font-style: normal;
   font-weight: 700;
@@ -34,11 +42,18 @@ body {
 }
 
 .logo1:hover,
+.logo1:focus {
+  background-color: var(--color-header);
+  color: var(--logo1-color);
+  border-color: var(--logo1-color);
+  text-decoration: underline;
+  text-decoration-color: var(--logo1-color);
+}
+
 .logo2:hover,
-.logo1:focus,
 .logo2:focus {
   background-color: var(--color-header);
-  color: var(--color-header);
+  color: var(--logo2-color);
   border-color: var(--logo1-color);
   text-decoration: underline;
   text-decoration-color: var(--logo1-color);
@@ -83,9 +98,8 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  display: block;
+  margin: auto;
   letter-spacing: 0.06em;
   color: var(--color-header);
   background-color: var(--logo1-color);
