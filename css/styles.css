@@ -7,7 +7,7 @@
   --background-color: #2f303a;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
 }
 
@@ -23,6 +23,7 @@ body {
   text-decoration-color: var(--logo1-color);
 }
 .logo1 {
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -32,7 +33,7 @@ body {
   text-decoration: none;
 }
 .logo2 {
-  font-family: "oleo script";
+  font-family: "Oleo Script";
   font-weight: 400;
   font-size: 26px;
   line-height: 1.19;
