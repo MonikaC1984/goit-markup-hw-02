@@ -7,7 +7,7 @@
   --background-color: #2f303a;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
 
@@ -34,7 +34,6 @@ body {
 }
 .logo2 {
   font-family: "Oleo Script";
-  font-weight: 400;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -61,7 +60,6 @@ body {
 }
 .nav {
   color: var(--color-h2);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -85,7 +83,6 @@ body {
 }
 
 .h1 {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -95,7 +92,6 @@ body {
   color: var(--color-header);
 }
 .button1 {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -107,7 +103,6 @@ body {
   border-color: var(--logo1-color);
 }
 .h2 {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -116,7 +111,6 @@ body {
   color: var(--color-h2);
 }
 .h3 {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -126,7 +120,6 @@ body {
 }
 
 .p {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -136,7 +129,6 @@ body {
 
 .names {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -146,8 +138,6 @@ body {
 }
 
 .p1 {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -156,7 +146,6 @@ body {
 }
 
 .filter {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -177,7 +166,6 @@ body {
 }
 
 .portfolioimage1 {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -187,8 +175,6 @@ body {
 
 .portfolioimage2 {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -197,7 +183,6 @@ body {
 
 .footer {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -213,7 +198,6 @@ body {
 
 .footeradres {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
