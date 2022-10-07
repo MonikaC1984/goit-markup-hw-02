@@ -8,7 +8,7 @@
   --filter-color: #f5f4fa;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--color-h2);
 }
 
@@ -41,7 +41,6 @@ body {
   color: var(--logo2-color);
   text-decoration: none;
 }
-
 .logo1:hover,
 .logo1:focus {
   background-color: var(--color-header);
@@ -71,10 +70,8 @@ body {
 .nav:hover,
 .nav:focus {
   background-color: var(--color-header);
-  color: var(--color-h2);
+  color: var(--logo1-color);
   border-color: var(--logo1-color);
-  text-decoration: underline;
-  text-decoration-color: var(--logo1-color);
 }
 .ck1 {
   color: var(--logo1-color);
@@ -93,6 +90,7 @@ body {
   color: var(--color-header);
 }
 .button1 {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -104,7 +102,6 @@ body {
   border-color: var(--logo1-color);
 }
 .h2 {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -112,7 +109,6 @@ body {
   color: var(--color-h2);
 }
 .h3 {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -121,7 +117,6 @@ body {
 }
 
 .p {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -147,6 +142,7 @@ body {
 }
 
 .filter {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -175,7 +171,6 @@ body {
 }
 
 .portfolioimage2 {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
